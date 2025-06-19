@@ -1,1 +1,3 @@
 # Guess-the-number
+# Guess the Number Game
+This project was created using React...
