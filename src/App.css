@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-image: url('D:\Guess the Number\guess-number\src\img\jc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(100,99,99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
+}
+.container{
+  padding: 10px;
+  border:2px solid whitesmoke;
+  width:500px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+
+}
+.head{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+input{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+input:hover{
+  background-color: rgb(226, 192, 161);
+}
+input:focus{
+  border: 0px;
+  background-color:rgb(231, 231, 160) ;
+}
